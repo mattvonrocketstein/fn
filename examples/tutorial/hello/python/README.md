@@ -6,7 +6,7 @@ This example will show you how to test and deploy Python code to Fn. It will als
 
 ```sh
 # Initialize your function creating a func.yaml file
-fn init --name hello-python
+fn init --name hello-python --runtime python
 
 # Test your function. 
 # This will run inside a container exactly how it will on the server. It will also install and vendor dependencies from Gemfile
